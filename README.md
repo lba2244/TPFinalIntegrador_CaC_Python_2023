@@ -1,5 +1,4 @@
-# TPFinalIntegrador_CaC_Python_2023
-Trabajo Integrador CaC_FullStackPython 2023_2C_ Comision23501
+# TPFinal Integrador CaC_FullStackPython 2023_2C_ Comision23501
 
 Aquí el front:
 https://clever-pasca-b4696a.netlify.app/
