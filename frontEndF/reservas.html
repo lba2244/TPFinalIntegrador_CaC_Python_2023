@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&amp;display=swap" rel="stylesheet">   
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">  
+   
+ <link rel="stylesheet" href="css/estilo.css">
+   
+ <link rel="shortcut icon" href="img/espaguetis (1).png">
+    
+    <title>Fetuccini Reservas </title>
+
+    
+</head>
+<body> 
+
+   <!--  <script src="js/submit_con chequeoDeDatoEenviados.js"> </script> -->
+  
+
+            <nav class=" navbar navbar-expand-lg navbar-dark bg- w3-2018-sailor-blue  bg-blue shadow"> 
+               
+              <div class="container-fluid "> 
+                    <div class="nav d-inline-flex p-2 text-white" > 
+                        <img class="img-fluid" src="img/logo.PNG"  width="25%" alt="Responsive image"> 
+                        <h6 class=" fs-4 text-white "><b>Fetuccini</b> </h6>
+                     </div>
+                   <ul class="nav justify-content-end">
+           <!---->         <li class="nav-item">  
+           <!-- px = padding y mx es el margin 		rounded-pill =genera ese boton con bordes redondeados rounded-circle-->
+                      <li class="nav-item"><a href="index.html" href="#" class="nav-link  btn-outline-warning rounded-pill px-3'" style="color:#fff">Home</a></li>
+                      <li class="nav-item"><a href="staff.html"href="#" class="nav-link btn-outline-warning rounded-pill px-3'" aria-current="page" style="color:#fff">Quienes somos  </a></li>
+                      <li class="nav-item"><a href="menu.html" href="#" class="nav-link  btn-outline-warning rounded-pill px-3'" style="color:#fff">Menú</a></li>
+                      <li class="nav-item"><a href="#"class='nav-link btn-outline-warning rounded-pill px-3'style="color:#fff"  >Reservas</a></li>
+                      <li class="nav-item"><a href="contacto.html" href="#" class="nav-link  btn-outline-warning rounded-pill px-3'" style="color:#fff">Contactanos</a></li>
+                     <!-- <li class="nav-item"><a href="#" class="nav-link" style="color:  #adb5bd">Reservas</a></li>-->                      
+                    </ul>             
+                 </div> 
+             </nav>
+   <br> 
+  <!-- <div class=" card px-sm-5 mt-4 border border-info" id="reservation-form"> -->
+   
+    <!-- aca pruebo imagen
+    <li class="nav-item"><a href="index.html" class="nav-link  btn-outline-warning rounded-pill px-3'" style="color:#fff">Home</a></li>-->
+    <!--   hasta aca-->
+   <div class="text-center">
+    <h1 class="py-6 display-6">Reservá telefónicamente al <br><br>
+          <img class="img-fluid" src="img/auriculares.png" width="5%" alt="Responsive image">
+          <span class=" align-middle display-4"></span>
+            0800-8888-9999
+          
+        </h1>
+    </div>
+
+    <h3 class="light-300 py-6 display-"><p>Completá los datos de tu reserva, en breve nos contactamos </p></h3>
+  
+   <!-- <div class="container"> -->
+    <div class="w-75 m-auto">
+      <form  name = "fvalida" class="mt-1" action=" "id="contactForm" method="post">  
+     <div class="mb-2">
+        <div class="row">
+         <div class="form-group col-md-6 ">   
+           <label for="name">Nombre (*)</label>     
+           <input type="text" class="form-control"  id="nombre"  name="nombre" placeholder=" Ingresá tu Nombre"required >
+         </div>
+         <div class="form-group col-md-6 ">   
+           <label for="name">Apellido(*)</label>     
+           <input type="text" class="form-control"  id="apellido"  name="apellido"  placeholder=" Ingresá tu Apellido"required >
+         </div><br><br> <br>
+         <div class="col-md-6">
+           <label for="surname">Telefono(*)</label>
+           <input type="text"class="form-control" id="telefono"  name="telefono" placeholder="Recordá ingresar 10 digitos"required>
+         </div> <br>
+         <div class="col-md-6">
+           <label for="surname">Email(*)</label>
+           <input type="text"class="form-control" id="mail"  name="mail" placeholder="Ingresá miCorreo@correo.com"required>
+         </div>
+        </div>
+       </div>  <br>
+             
+<div class="mb-2">
+<div class="row">         
+
+  <div class="form-group col-md-6">
+   <form action="/action_page.php">
+      <label for="sel1" class="form-label" >Comensales(*)</label> 
+      <select class="form-select" id="cant_comensales" name="cant_comensales"required>
+        <option>Cantidad de comensales</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+  </div>   
+
+  <div class=" form-group col-md-6">
+   <form action="/action_page.php">
+     
+     <label for="sel1" class="form-label" >Motivo (*) </label>
+       <select class="form-select" id="motivoR" name="motivoR"required>
+        <option>Motivo</option>
+        <option>Laboral</option>
+        <option>Aniversario</option> 
+        <option>Cumpleaños</option>
+        <option>Otro</option>
+       </select>
+
+           </div>
+           </div>
+</div>
+<div class="mb-2">
+<div class="row"> 
+      
+        <div class="form-group col-md-6">
+           <form action="/action_page.php">
+            <label for="primer_visita" class="form-label" >Primera visita?</label> 
+              <select class="form-select" id="primera_visita" name="primera_visita"required>
+               <option>-</option> 
+               <option>sí</option>
+               <option>no</option>
+              </select>
+         </div> 
+         <div class="form-group col-md-6">
+       
+           <label for="formGroupExampleInput2" class="form-label">Fecha Reserva (*)</label>
+           <input type="date" class="form-control" name="fecha_reserva"  id="fecha_reserva" value="2023-08-29" min="2022-01-01" max="2023-12-31"required >      
+      
+         </div>
+
+ 
+</div> <br><br>
+         
+
+       <div class="col-12 form-group">
+        <label for="coments">Si tenés algún comentario, leemos tu mensaje</label>
+         <textarea class="form-control mt-2 border border-info" id="mensaje" name="mensaje" rows="6"></textarea>
+       </div>
+ 
+
+      <div class="col-12 form-group align-content-end">
+        <button type="submit" id="mensajeEnviado" class="btn btn-info text-light align-items-end mt-4 mb-4" onclick="validarFormulario()">Enviar</button>
+        <button type="reset" class="btn btn-info text-light align-items-end mt-2 mb-2">Limpiar formulario</button>
+       </div>    
+
+          </form>
+    </div>
+  <!--Aca cierra el form-->
+    <hr>
+      </div>
+
+
+</div>  <!-- aca debería terminar el content-->
+
+  <script src="js/formularioReserva.js"></script>
+  <script src="js/formVinc.js"></script>
+  <iframe src="foot2.html" class= "footer"height="150px" width="100%" frameborder="no" MARGINWIDTH="0" ></iframe>
+                  
+                   
+</body> 
+</html>
+

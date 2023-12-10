@@ -1,0 +1,350 @@
+/*ESTILO1 SOLO USADO EN MENÚ , DESP VER COMO MODIFICAR PARA Q HAYA 1S SOLO ESTILO*/
+
+
+
+/*selector x etiqueta PUSE PARA PROBAR*/
+/*Espantoso pero anda :)
+body{
+    color: brown;
+    background-color: aqua;*/
+html {font-family: 'Open Sans', sans-serif;}
+/*Ëncabezado responsive*/
+/*heather*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  position:fixed;
+  padding: 20px;
+  margin-top: 0;
+  width: 100% !important;
+  display:flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #2E4A62;
+  align-items: center;
+
+
+}
+
+a{
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+.logo{
+  display: grid;
+  align-items:center;
+}
+
+.logo img{
+  height:80px;
+  margin-right: 10px;
+  border-radius: 15px; 
+}
+
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+ nav a:hover{
+color:yellow;
+
+}
+@media (max-width : 700px){
+     header{
+        flex-direction:column;
+     }
+     nav{
+          padding: 10px, 0px;
+     }
+}
+
+/*fin encabezado responsive*/
+/******/
+
+
+/* Tipograf */
+p, a {font-weight: 400;}
+.h2 {font-size: 40px;}
+.h3 {font-size: 28px;}
+.light-300 {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300;
+}
+.regular-400 {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400;
+}
+.semi-bold-600 {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600;
+}
+
+.card {
+  transition: transform .3s;
+  box-shadow: 10px 10px 20px 7px rgba(204, 204, 204, 0.384);
+}
+
+
+.form {
+  text-align: center;
+  color:rgb(55, 55, 55);
+}
+
+
+#reservation-form {
+  transform: none;
+  text-align: left;
+  color:rgb(55, 55, 55);
+  margin: 10px 130px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px 7px rgba(204, 204, 204, 0.384);
+}
+#sel1{
+  color:grey;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+ 
+}
+#sel2{
+  color:grey;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+}
+ #floatingTextarea {
+  max-height:80px;
+  max-width:51%;
+  margin-left:265px ;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #787275;
+  padding-top:5px;
+}
+
+
+
+button{
+  display: none;
+  width:40 px;
+  height:100%;
+  border-radius: 25px;
+  background:#9ab6fd;
+  color:white;
+  border:0;
+  margin-left: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+  transition: all 0,5s;
+}
+input{
+  box-sizing: border-box;
+  width: 326px;
+  height: 30px;
+  background: #9a86fd;
+  border: 1px solid #0000;
+  border-radius: 25px;
+  color:white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+  transition: all 0,5s;
+  padding-left: 5%;
+}
+
+
+
+/*Menú*/
+      
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #00b7f8;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 20 px;
+  text-align:left; /*cambio alineación a cntro?*/
+}
+
+.center {
+width: 100%;
+margin: 5px 10px;
+padding: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*para Precios*/
+* {box-sizing: border-box;}
+      
+      .container1 {
+        position: relative;
+        width: 100%;       /*quiero todo el ancho de la card*/
+        max-width: 600px;
+      }
+      
+      .overlay {
+        position: relative; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1; 
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 10 px;
+        text-align: center; 
+      }
+      
+      .container1:hover .overlay {
+        opacity: 1;
+      }
+
+/*para quienes somos Imagenes desplegables de Hector*/      
+
+section{
+  display: flex;
+  width: 600px;
+  height: 430px;
+  margin: 0 auto;
+}
+
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+section img:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+/*fin Hector/
+     
+ 
+
+/*pruebo footer hector*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+
+  position:fixed;
+  padding: 20;
+  margin-top: 0;
+  background-color: #2E4A62;
+  width: 100% !important;
+ 
+}
+
+.footer .grupo1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  padding: 25px 0px;
+}
+
+.footer.grupo1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .grupo1 .box figure img {
+  width: 150px;
+  border-radius: 10px;
+}
+.footer .grupo1 .box h2 {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.footer .grupo1 .box p{
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.footer.grupo1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  transition: all .3s ease;
+}
+
+
+
+.footer .grupo2 {
+  background-color:  #2E4A62;
+  padding: 15px 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .footer .grupo1 {
+      width: 70%;
+      grid-template-columns: repeat(1, 1fr);
+      column-gap: 20px;
+      padding: 25px 0px;
+  }
+} 
