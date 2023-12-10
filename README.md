@@ -5,9 +5,9 @@
 
 #Comentarios-detalles en los que hay que seguir trabajando:
 
-*faltaría agregar menu hamburguesa para visualizar mejor de manera responsive/
+*faltaría agregar menu hamburguesa para visualizar mejor de manera responsive\n
 
-*mejorar footer para visualizar mejor de manera responsive/
+*mejorar footer para visualizar mejor de manera responsive\n
 *reducir algo el texto en las descripciones del menú
 
 
