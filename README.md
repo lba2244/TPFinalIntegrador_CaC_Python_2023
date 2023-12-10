@@ -3,10 +3,9 @@
 [#Trabajo Práctico Intergrador Front-End 2023_1C incluyendo JS](https://clever-pasca-b4696a.netlify.app/)
 
 
-Comentarios de detalles en los que hay que seguir trabajando:
+[Comentarios de detalles en los que hay que seguir trabajando]
 *faltaría agregar menu hamburguesa para visualizar mejor de manera responsive
 *mejorar footer para visualizar mejor de manera responsive
 *reducir algo el texto en las descripciones del menú
 
- ## Trabajo Práctico I JS 
-  https://lba2244.github.io/CaC_TPIntegrador_front/
+
