@@ -1,4 +1,4 @@
-# TPFinal Integrador CaC_FullStackPython 2023_2C_ Comision23501
+# TPFinal Integrador CaC_FullStackPython 2023_2C_ Comision23501_Proyecto de Almada Laura
 
 [#Trabajo Práctico Intergrador Front-End 2023_1C incluyendo JS](https://clever-pasca-b4696a.netlify.app/)
 
